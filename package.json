@@ -1,0 +1,17 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test-allure": "npx playwright test --reporter=line,allure-playwright"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.16.3",
+    "allure-commandline": "^2.13.8",
+    "experimental-allure-playwright": "^0.0.3"
+  }
+}
